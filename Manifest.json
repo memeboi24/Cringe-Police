@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Slang Police",
+  "version": "1.0",
+  "description": "Replace gen alpha slang with stars  to prevent brainrot.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["Police.js"]
+    }
+  ]
+}
