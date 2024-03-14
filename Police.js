@@ -2,14 +2,14 @@
 function replaceWords(node) {
     const replacements = {
         "skibidi": "***",
-        "rizz": "***",
+        " rizz ": "***",
         "fanum tax": "***",
         "skibidi toilet": "***",
         "gyatt": "***",
         "Sigma": "***",
         "Rizzler": "***",
         "In Ohio": "***",
-        "Edge": "***",
+        " Edge ": "***",
     };
     
     // Regular expression to match the specified words
